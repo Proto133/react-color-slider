@@ -17,10 +17,7 @@ setColors({...colors, [name]: value})
             <ColorSlider value={colors.red} name="red" updateColors={updateColors} />
             <ColorSlider value={colors.green} name="green" updateColors={updateColors} />
             <ColorSlider value={colors.blue} name="blue" updateColors={updateColors} />
-            <div className="RGBDiv">
-            <h4>RGB</h4>
-            <ColorOutput value={colors}/>
-            </div>
+            <ColorOutput colors={colors} />
         </div>
     )
 }

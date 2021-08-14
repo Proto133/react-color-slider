@@ -34,9 +34,17 @@ code {
 }
 
 .sliderTitle[name="red"]{
-  color: red
+  color: red;
 }
 
+.sliderTitle[name="green"]{
+  color:green;
+}
+
+.sliderTitle[name="blue"]{
+  color:blue;
+}
+.RGBDiv h4,
 .RGB{
   font-weight: bold;
   text-shadow: 0px 0px 11px rgba(255, 255, 255, 1);
